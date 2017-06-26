@@ -14,4 +14,4 @@ The problem is broken down into 3 parts:
 * Task 3b - Constructing a bespoke 'Safe' extremum seeker that can operate left of the Mu peak (always slightly less than the optimal slip point) without losses in performance
 
 ### Results
-The bespoke solution, by using a dynamically-changing step size, can find the peak faster and with greater accuracy and flexibility, however requires extra tuning parameters based on offline estimates of the road conditions and Mu curve characteristics. Other alternatives are possible but either entail some encroaching past the peak during steady state oscillation or that use of an overly-conservative constraint without application of useful available plant knowledge.
+The bespoke solution, by using a dynamically-changing step size, can find the peak faster and with greater accuracy and flexibility, however requires extra tuning parameters based on offline estimates of the road conditions and Mu curve characteristics. Other alternatives are possible but either entail some encroaching past the peak during steady state oscillation, or that use an overly-conservative constraint without application of useful available plant knowledge.
